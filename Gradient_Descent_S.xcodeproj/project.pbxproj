@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		94076E001F423D8E006FDF01 /* Gradient_Descent_S */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gradient_Descent_S; sourceTree = BUILT_PRODUCTS_DIR; };
 		94076E031F423D8E006FDF01 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		94076E301F43E2BE006FDF01 /* ex1data2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ex1data2.txt; sourceTree = "<group>"; };
+		94076E311F43E2C4006FDF01 /* ex1data1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ex1data1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,8 @@
 		94076E021F423D8E006FDF01 /* Gradient_Descent_S */ = {
 			isa = PBXGroup;
 			children = (
+				94076E311F43E2C4006FDF01 /* ex1data1.txt */,
+				94076E301F43E2BE006FDF01 /* ex1data2.txt */,
 				94076E031F423D8E006FDF01 /* main.c */,
 			);
 			path = Gradient_Descent_S;
@@ -218,6 +222,7 @@
 		94076E081F423D8E006FDF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +230,7 @@
 		94076E091F423D8E006FDF01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -248,6 +254,7 @@
 				94076E091F423D8E006FDF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
